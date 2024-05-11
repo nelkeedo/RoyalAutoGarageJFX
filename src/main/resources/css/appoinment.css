@@ -1,0 +1,32 @@
+.main{
+    -fx-background-color: white;
+    -fx-padding: 10,10,10,10;
+}
+.mainvbox{
+    -fx-alignment: center;
+    -fx-spacing: 15;
+
+}
+.mainboxLabels{
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #d5791a;
+}
+.mainboxInputs{
+    fx-background-color: white;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),3,0,1,0);
+}
+.mainboxTables{
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+}
+.mainButton{
+    -fx-background-color: #d5791a;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.mainconatiner{
+    -fx-background-color: white ;
+
+}
+
+.Lable{
+    -fx-text-fill: #d5791a;
+    -fx-font-size: 1.5em;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+
+}
+.Vbox{
+    -fx-background-color: #d5791a;
+    -fx-background-radius: 20,20,0,0;
+    -fx-effect: dropshadow(three-pass-box, #8d8c8c,5,0,0,6);
+    -fx-pref-height: 200;
+}
+.table-view {
+    -fx-table-cell-border-color: transparent;
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+}
+
+.table-row-cell {
+    -fx-border-color: #000000;    -fx-border-width: 0 0 1 0;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #06c706;
+}

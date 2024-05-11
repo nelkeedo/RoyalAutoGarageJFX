@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" styleClass="main" stylesheets="@../../css/vehichlecellliststyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.appoinmentcelllistviewcontoller">
+    <Label fx:id="appointmment_date_label" layoutX="42.0" layoutY="22.0" prefHeight="17.0" prefWidth="109.0" styleClass="mainLabels" text="Appointment date " AnchorPane.bottomAnchor="21.0" AnchorPane.topAnchor="22.0" />
+    <Label fx:id="timeofapppoinment_lbl" layoutX="202.0" layoutY="22.0" prefHeight="17.0" prefWidth="126.0" styleClass="mainLabels" text="Time of appoitnment" AnchorPane.bottomAnchor="21.0" AnchorPane.topAnchor="22.0" />
+    <Label fx:id="service_lbl" layoutX="404.0" layoutY="22.0" prefHeight="17.0" prefWidth="126.0" styleClass="mainLabels" text="service " AnchorPane.bottomAnchor="21.0" AnchorPane.topAnchor="22.0" />
+</AnchorPane>

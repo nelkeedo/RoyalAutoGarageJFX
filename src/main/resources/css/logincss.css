@@ -1,0 +1,41 @@
+.main {
+    -fx-font-family: Calibri;
+    -fx-background-color: #f8f8f8;
+
+}
+.vboxLeftSide{
+    -fx-alignment: center;
+    -fx-background-color: #06c706;
+    -fx-font-family: Calibri;
+    -fx-spacing:20;
+
+}
+.vboxLeftSide Label{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 1.5em;
+    -fx-text-fill: white;
+}
+.vboxRightSide {
+    -fx-padding: 20,0,0,0;
+    -fx-background-color: #f8f8f8;
+    -fx-spacing: 30;
+    -fx-font-family: Arial;
+    -fx-font-size: 1em;
+}
+.textinput{
+    -fx-pref-height: 40;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+    -fx-pref-width: 200;
+
+}
+.vboxRightSide Label{
+    -fx-text-fill: red;
+}
+.vboxRightSideButton{
+    -fx-background-color: orange;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1em;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+}
+

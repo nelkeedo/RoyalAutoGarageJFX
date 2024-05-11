@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="mainconatiner" stylesheets="@../../css/clienthomecss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.Homecontoller">
+   <Label fx:id="usernamelbl" layoutX="186.0" layoutY="61.0" prefHeight="22.0" prefWidth="142.0" styleClass="Lable" AnchorPane.leftAnchor="186.0" AnchorPane.topAnchor="61.0" />
+   <Label layoutX="69.0" layoutY="105.0" styleClass="Lable" text="Recent services " />
+   <Label fx:id="datelbl" layoutX="794.0" layoutY="41.0" text="Date" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="41.0" />
+   <Label layoutX="316.0" layoutY="385.0" styleClass="Lable" text="Recent apointmnets " AnchorPane.leftAnchor="316.0" AnchorPane.topAnchor="385.0" />
+   <Label layoutX="564.0" layoutY="83.0" styleClass="Lable" text="Registered cars" />
+   <TableView fx:id="vehicleTableView" layoutX="461.0" layoutY="140.0" prefHeight="218.0" prefWidth="358.0">
+      <columns>
+         <TableColumn fx:id="registrationColumn" prefWidth="95.0" text="Registarion" />
+         <TableColumn fx:id="modelColumn" prefWidth="91.0" text="Model " />
+         <TableColumn fx:id="colorColumn" prefWidth="69.0" text="colour " />
+         <TableColumn fx:id="chassisColumn" prefWidth="85.0" text="chasis" />
+      </columns>
+   </TableView>
+   <Label layoutX="41.0" layoutY="61.0" prefHeight="22.0" prefWidth="133.0" styleClass="Lable" text="Welcome back " AnchorPane.leftAnchor="41.0" AnchorPane.topAnchor="61.0" />
+   <TableView fx:id="RecentappointmentsTable" layoutX="111.0" layoutY="421.0" prefHeight="246.0" prefWidth="628.0">
+     <columns>
+       <TableColumn fx:id="Recentstatuscolums" prefWidth="181.0" text="Status" />
+       <TableColumn fx:id="Recentappointmentdatecolum" prefWidth="74.0" text="Date" />
+         <TableColumn fx:id="Recentappointmenttimecolumn" prefWidth="170.0" text="Time" />
+         <TableColumn fx:id="Recentappointmentvehiclecolumn" prefWidth="202.0" text="V.Registartion" />
+     </columns>
+   </TableView>
+   <TableView fx:id="recentServicesTable" layoutX="12.0" layoutY="140.0" prefHeight="200.0" prefWidth="401.0">
+     <columns>
+       <TableColumn fx:id="serviceNameColumn" prefWidth="200.0" text="Service name " />
+       <TableColumn fx:id="vehicleRegColumn" prefWidth="219.0" text="VehicleRegistrtion " />
+     </columns>
+   </TableView>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main" stylesheets="@../../css/appoinment.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.Appoitmnet">
+   <Text layoutX="357.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="mainboxLabels" text="Appoinmets " wrappingWidth="126.99999999999994" />
+   <Label layoutX="79.0" layoutY="81.0" prefHeight="25.0" prefWidth="171.0" styleClass="mainboxLabels" text="Book new appoinment " />
+   <VBox layoutX="67.0" layoutY="106.0" prefHeight="276.0" prefWidth="259.0" styleClass="mainvbox">
+      <Label prefHeight="25.0" prefWidth="223.0" styleClass="mainboxLabels" text="Date of appoitment" />
+      <TextField fx:id="dateofappoinment_txt" prefHeight="30.0" prefWidth="219.0" styleClass="mainboxInputs" />
+      <Label prefHeight="25.0" prefWidth="229.0" styleClass="mainboxLabels" text="Time of appointment" />
+      <TextField fx:id="timeofappoinemtnt_txt" prefHeight="30.0" prefWidth="219.0" styleClass="mainboxInputs" />
+      <Label prefHeight="25.0" prefWidth="220.0" text="vehicle registration number " />
+      <TextField fx:id="vehregnumber_txt" prefHeight="30.0" prefWidth="219.0" styleClass="mainboxInputs" />
+      <Button fx:id="book_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" styleClass="mainButton" text="Book" />
+   </VBox>
+   <VBox layoutX="55.0" layoutY="396.0" prefHeight="333.0" prefWidth="287.0" styleClass="mainvbox" stylesheets="@../../css/appoinment.css">
+      <Label prefHeight="41.0" prefWidth="215.0" styleClass="mainboxLabels" text="Postpone an  appoinment " />
+      <Label prefHeight="25.0" prefWidth="223.0" styleClass="mainboxLabels" text="appoinemnt id " />
+      <TextField fx:id="appoinemt_id" prefHeight="30.0" prefWidth="287.0" styleClass="mainboxInputs" />
+      <Label prefHeight="25.0" prefWidth="229.0" styleClass="mainboxLabels" text="Time of appointment" />
+      <TextField fx:id="pstpntime_txt" prefHeight="30.0" prefWidth="219.0" styleClass="mainboxInputs" />
+      <Label prefHeight="17.0" prefWidth="224.0" styleClass="mainboxLabels" text="New postpone date" />
+      <TextField fx:id="newPstpndate_txt" styleClass="mainboxInputs" />
+      <Button fx:id="postpone_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" styleClass="mainButton" text="Postpone " />
+   </VBox>
+   <Label layoutX="539.0" layoutY="64.0" prefHeight="22.0" prefWidth="197.0" styleClass="mainboxLabels" text="awaiting appoitmntmets" />
+   <Label layoutX="547.0" layoutY="400.0" prefHeight="17.0" prefWidth="208.0" styleClass="mainboxLabels" text="postponed appointmnts " />
+   <TableView fx:id="awaitingAppointmentsTable" layoutX="400.0" layoutY="101.0" prefHeight="252.0" prefWidth="422.0" styleClass="mainboxTables">
+      <columns>
+         <TableColumn fx:id="colAppointmentId" prefWidth="100.0" text="ID" />
+         <TableColumn fx:id="colAppointmentDate" prefWidth="67.0" text="Date" />
+         <TableColumn fx:id="colAppointmentTime" prefWidth="125.0" text="Time" />
+         <TableColumn fx:id="colVehicleRegNum" prefWidth="129.0" text="V.Registarion" />
+      </columns>
+   </TableView>
+   <TableView fx:id="postponedAppointmentsTable" layoutX="414.0" layoutY="447.0" prefHeight="264.0" prefWidth="422.0" styleClass="mainboxTables">
+      <columns>
+         <TableColumn fx:id="colPostponedAppointmentId" prefWidth="67.0" text="ID" />
+         <TableColumn fx:id="colPostponedAppointmentDate" prefWidth="136.0" text="Date" />
+         <TableColumn fx:id="colPostponedAppointmentTime" prefWidth="93.0" text="Time" />
+         <TableColumn fx:id="colPostponedVehicleRegNum" prefWidth="125.0" text="V.Registarion" />
+      </columns>
+   </TableView>
+</AnchorPane>

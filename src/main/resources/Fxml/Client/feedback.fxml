@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" stylesheets="@../../css/feedback.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.feebackcontoller">
+   <Text layoutX="385.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="mainlabel" text="Feedbacks " wrappingWidth="80.419921875" />
+   <HBox layoutX="35.0" layoutY="131.0" prefHeight="323.0" prefWidth="759.0" styleClass="mainHbox">
+      <VBox prefHeight="323.0" prefWidth="400.0">
+         <Label alignment="CENTER" prefHeight="31.0" prefWidth="405.0" styleClass="mainlableothers" text="Service name " />
+         <TextField fx:id="service_fld" prefHeight="39.0" prefWidth="400.0" styleClass="maininput" />
+         <Label alignment="CENTER" prefHeight="31.0" prefWidth="407.0" styleClass="mainlableothers" text="Was there an appointment ?" />
+         <TextField fx:id="appoinmentstatusfield" prefHeight="39.0" prefWidth="400.0" styleClass="maininput" />
+         <Label alignment="CENTER" prefHeight="54.0" prefWidth="400.0" styleClass="mainlableothers" text="if yes what was the quality of the service offered during appoinnmtnet" textAlignment="CENTER" />
+         <TextField fx:id="qualityservice_fld" prefHeight="39.0" prefWidth="400.0" styleClass="maininput" />
+         <Label alignment="CENTER" prefHeight="24.0" prefWidth="403.0" styleClass="mainlableothers" text="Add any complain if your were not well untended " />
+         <TextField fx:id="complain_fld" prefHeight="39.0" prefWidth="400.0" styleClass="maininput" />
+      </VBox>
+      <VBox prefHeight="323.0" prefWidth="359.0">
+         <Label alignment="CENTER" prefHeight="31.0" prefWidth="360.0" styleClass="mainlableothers" text="Was the vehicle/vehicles well repaired " />
+         <TextField fx:id="vehicle_fld" prefHeight="39.0" prefWidth="359.0" styleClass="maininput" />
+         <Label alignment="CENTER" prefHeight="31.0" prefWidth="360.0" styleClass="mainlableothers" text="How was the whole service experience" />
+         <TextField fx:id="servviceexperience_fld" prefHeight="39.0" prefWidth="359.0" styleClass="maininput" />
+         <Label alignment="CENTER" prefHeight="31.0" prefWidth="360.0" styleClass="mainlableothers" text="The experince with our garage mechancis " />
+         <TextField fx:id="experience_fld" prefHeight="39.0" prefWidth="359.0" styleClass="maininput" />
+      </VBox>
+   </HBox>
+   <Label layoutX="345.0" layoutY="89.0" prefHeight="24.0" prefWidth="161.0" styleClass="mainlabel2" text="provide feedback" />
+   <Button fx:id="subbmit_btn" layoutX="337.0" layoutY="492.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="154.0" styleClass="mainButton" text="submit feedback " />
+   <Label fx:id="status_lbl" layoutX="157.0" layoutY="597.0" prefHeight="66.0" prefWidth="475.0" />
+</AnchorPane>

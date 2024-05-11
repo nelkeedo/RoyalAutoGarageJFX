@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.Admin.Apoinment">
+   <children>
+      <TableView layoutX="31.0" layoutY="128.0" prefHeight="575.0" prefWidth="789.0">
+        <columns>
+          <TableColumn prefWidth="184.0" text="customer name " />
+          <TableColumn prefWidth="186.0" text="apoinment date " />
+            <TableColumn prefWidth="205.0" text="Appoinment time" />
+            <TableColumn prefWidth="213.0" text="vehichle " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

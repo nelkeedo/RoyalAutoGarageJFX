@@ -1,0 +1,29 @@
+.main{
+    -fx-background-color: #f8f8f8;
+}
+.mainvbox{
+    -fx-background-color: #f8f8f8;
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-font-size: 1.5em;
+    -fx-font-family: Calibri;
+
+}
+.mainTextfield{
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+    -fx-pref-height:40;
+    -fx-pref-width: 300;
+}
+.main Button{
+    -fx-background-color: #d5791a;
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+
+}
+.mainLable{
+    -fx-font-family: Impact;
+    -fx-font-size: 2em;
+    -fx-text-fill:#d5791a ;
+}

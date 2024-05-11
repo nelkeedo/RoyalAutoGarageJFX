@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="463.0" prefWidth="732.0" stylesheets="@../../css/logincss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.registercontroller">
+   <VBox layoutX="439.0" layoutY="-3.0" prefHeight="471.0" prefWidth="298.0" styleClass="vboxLeftSide">
+      <Label text="Royal Auto Garage" />
+   </VBox>
+   <VBox layoutX="60.0" layoutY="-6.0" prefHeight="471.0" prefWidth="346.0" styleClass="vboxRightSide">
+      <TextField fx:id="firstnametxt" prefHeight="23.0" prefWidth="386.0" promptText="firstname" styleClass="textinput" />
+      <TextField fx:id="lastnametxt" prefHeight="35.0" prefWidth="100.0" promptText="last name " styleClass="textinput" />
+      <TextField fx:id="adreesstxt" promptText="adress" styleClass="textinput" />
+      <TextField fx:id="phonenumber" promptText="phone number " styleClass="textinput" />
+      <TextField fx:id="paswordtxt" promptText="password" styleClass="textinput" />
+      <TextField fx:id="confirmpaswordtxt" promptText="confirm pasword " styleClass="textinput" />
+      <Label fx:id="error" prefHeight="15.0" prefWidth="333.0" />
+      <Button fx:id="Register_btn" mnemonicParsing="false" prefHeight="39.0" prefWidth="148.0" styleClass="vboxRightSideButton" text="Register " />
+   </VBox>
+</AnchorPane>

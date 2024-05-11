@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.Admin.adminclient">
+   <children>
+      <TableView layoutX="7.0" layoutY="50.0" prefHeight="650.0" prefWidth="833.0">
+        <columns>
+          <TableColumn prefWidth="122.0" text="firstname " />
+          <TableColumn prefWidth="128.0" text="last name " />
+            <TableColumn prefWidth="94.0" text="adress " />
+            <TableColumn prefWidth="124.0" text="Phone number " />
+            <TableColumn prefWidth="142.0" text="vehicle regno" />
+            <TableColumn prefWidth="117.0" text="Vehicle model" />
+            <TableColumn prefWidth="105.0" text="Colour " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

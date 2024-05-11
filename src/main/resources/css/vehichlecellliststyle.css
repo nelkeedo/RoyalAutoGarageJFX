@@ -1,0 +1,18 @@
+.main{
+    -fx-background-color: white;
+    -fx-spacing: 10;
+    -fx-font-family: Calibri;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+
+}
+.mainVbox{
+    -fx-alignment: center;
+    -fx-font-family: Impact;
+    -fx-text-fill: darkgreen;
+
+}
+.mainLabels{
+    -fx-font-family: Impact;
+    -fx-font-size: 1.2em;
+    -fx-text-fill: orange;
+}

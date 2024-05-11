@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main_container" stylesheets="@../../css/servicescss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.royalautogarage.Controllers.client.servicescontoller">
+   <Text layoutX="303.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available services " wrappingWidth="212.13671875" AnchorPane.topAnchor="32.0" />
+   <VBox layoutX="23.0" layoutY="77.0" prefHeight="331.0" prefWidth="685.0" styleClass="mainhbox">
+      <HBox prefHeight="155.0" prefWidth="200.0">
+         <VBox prefHeight="100.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="wheel alignment " textAlignment="CENTER" wrappingWidth="93.13671875" />
+            <Label prefHeight="32.0" prefWidth="67.0" text="5,000ksh" />
+            <Button fx:id="wheelalignment_btn" mnemonicParsing="false" styleClass="smallVboxButton" text="get service" />
+         </VBox>
+         <VBox prefHeight="100.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Oil Change" textAlignment="CENTER" wrappingWidth="93.13671875" />
+            <Label prefHeight="32.0" prefWidth="67.0" text="3,000 ksh" />
+            <Button fx:id="oilchange_btn" mnemonicParsing="false" styleClass="smallVboxButton" text="get service" />
+         </VBox>
+         <VBox prefHeight="100.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tire Rotation" textAlignment="CENTER" wrappingWidth="93.13671875" />
+            <Label prefHeight="32.0" prefWidth="67.0" text="4,500 ksh" />
+            <Button fx:id="tirerotaion_btn" mnemonicParsing="false" styleClass="smallVboxButton" text="get service" />
+         </VBox>
+         <VBox prefHeight="100.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Brake Inspection" textAlignment="CENTER" wrappingWidth="93.13671875" />
+            <Label prefHeight="32.0" prefWidth="67.0" text="15,000ksh" />
+            <Button fx:id="brakeinsepction_btn" mnemonicParsing="false" styleClass="smallVboxButton" text="get service" />
+         </VBox>
+         <VBox prefHeight="100.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Battery Replacement" textAlignment="CENTER" wrappingWidth="118.13671875" />
+            <Label prefHeight="32.0" prefWidth="67.0" text="8,000ksh" />
+            <Button fx:id="batteryreplacment_btn" mnemonicParsing="false" styleClass="smallVboxButton" text="get service" />
+         </VBox>
+      </HBox>
+      <HBox prefHeight="155.0" prefWidth="200.0">
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Air Filter Replacement" textAlignment="CENTER" wrappingWidth="118.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="3,000ksh" />
+            <Button fx:id="airfilte_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Windshield Replacement" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="30,000ksh" />
+            <Button fx:id="winshield_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text fx:id="transmision_btn" strokeType="OUTSIDE" strokeWidth="0.0" text="Transmission Repair" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="150,000ksh" />
+            <Button fx:id="Transimmisonbutton" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Engine Rebuild or Replacement" textAlignment="CENTER" wrappingWidth="113.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="300,000 ksh" />
+            <Button fx:id="engine_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Suspension Overhaul" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="75,000 ksh" />
+            <Button fx:id="suspesion_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+      </HBox>
+      <HBox prefHeight="155.0" prefWidth="200.0">
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Air Conditioning Repair" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="20,000 ksh" />
+            <Button fx:id="air_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Electrical System Repair" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label fx:id="electrical_btn" prefHeight="38.0" prefWidth="98.0" text="30,000 ksh" />
+            <Button fx:id="Electricalbtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Clutch Replacement" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label fx:id="clutch_btn" prefHeight="38.0" prefWidth="98.0" text="75,000 ksh" />
+            <Button fx:id="Clutchreplacemnetbtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Timing Belt Replacement" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label fx:id="timming_btn" prefHeight="38.0" prefWidth="98.0" text="45,000ksh" />
+            <Button fx:id="timmingbeltbtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="140.0" styleClass="smallvbox">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fuel System Repair" textAlignment="CENTER" wrappingWidth="108.73828125" />
+            <Label prefHeight="38.0" prefWidth="98.0" text="30,000 ksh" />
+            <Button fx:id="fuel_btn" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" styleClass="smallVboxButton" text="get service " />
+         </VBox>
+      </HBox>
+   </VBox>
+   <Label fx:id="Datelbl" layoutX="753.0" layoutY="40.0" text="Date " AnchorPane.topAnchor="40.0" />
+   <Button fx:id="addtoblling_btn" layoutX="556.0" layoutY="643.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="114.0" styleClass="smallVboxButton" text="add to billing " />
+   <TableView fx:id="Carttable" layoutX="23.0" layoutY="477.0" prefHeight="200.0" prefWidth="360.0">
+     <columns>
+       <TableColumn fx:id="servicenamecolumn" prefWidth="193.0" text="service name" />
+       <TableColumn fx:id="serviceamountcolumn" prefWidth="166.0" text="service ammount " />
+     </columns>
+   </TableView>
+   <TextField fx:id="Cartobeserviced" layoutX="522.0" layoutY="551.0" prefHeight="32.0" prefWidth="205.0" />
+   <Label layoutX="532.0" layoutY="512.0" prefHeight="17.0" prefWidth="148.0" text="Car to be serviced" />
+</AnchorPane>

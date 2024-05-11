@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" styleClass="main" stylesheets="@../../css/vehichlecellliststyle.css"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            >
+   <VBox prefHeight="130.0" prefWidth="144.0" styleClass="mainVbox" AnchorPane.bottomAnchor="5.0"
+         AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="0.0">
+      <Label fx:id="registrationnumbe_lbl" prefHeight="17.0" prefWidth="130.0" styleClass="mainLabels"
+             text="registration number "/>
+   </VBox>
+   <Label fx:id="colour_lbl" layoutX="190.0" layoutY="14.0" prefHeight="25.0" prefWidth="130.0" styleClass="mainLabels" text="colour " AnchorPane.bottomAnchor="21.0" AnchorPane.topAnchor="14.0" />
+   <Label fx:id="model_lbl" layoutX="430.0" layoutY="18.0" prefHeight="25.0" prefWidth="91.0" styleClass="mainLabels" text="model " AnchorPane.bottomAnchor="21.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="14.0" />
+   <Line endY="40.0" layoutX="353.0" layoutY="10.0" stroke="#00ff01" />
+</AnchorPane>

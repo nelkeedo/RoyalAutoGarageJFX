@@ -1,0 +1,45 @@
+.main{
+    -fx-background-color: white;
+    -fx-padding: 20;
+
+}
+.mainHbox{
+    -fx-padding: 20;
+    -fx-spacing: 15;
+
+}
+.maininput{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+    -fx-pref-width: 350;
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.2em;
+
+}
+.mainlabel{
+    -fx-font-family: Impact;
+    -fx-font-size: 1.5em;
+    -fx-fill: #d5791a;
+}
+.mainlabel2{
+    -fx-font-family: Calibri;
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+
+
+}
+.mainlableothers{
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-wrap-text: true;
+
+}
+.mainButton{
+    -fx-background-color: #d5791a;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.main_container{
+    -fx-background-color:  #fdfdfd;
+-fx-padding: 20;
+}
+
+/*.main_container Text{
+    -fx-fill: rgba(1, 114, 53, 0.99);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-font-family: Calibri;
+}
+.main_container Label{
+    -fx-text-fill: rgba(1, 114, 53, 0.99);
+    -fx-font-size: 1.5em;
+    -fx-font-family: Calibri;
+}*/
+.mainhbox{
+    -fx-spacing: 10;
+    -fx-pref-width: 800;
+    -fx-background-color: #fcfcfc;
+
+}
+.smallvbox{
+    -fx-pref-width: 140;
+    -fx-pref-height: auto;
+    -fx-alignment: center;
+
+}
+.smallVboxButton{
+    -fx-background-color: #d5791a;
+    -fx-font-family: Calibri;
+    -fx-font-size: 1em;
+    -fx-pref-height: 27;
+    -fx-pref-width: 100;
+    -fx-effect: dropshadow(three-pass-box, #8d8c8c,5,0,0,6);
+}

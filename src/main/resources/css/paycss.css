@@ -1,0 +1,26 @@
+.main{
+    -fx-padding: 20;
+}
+.mainvbox{
+    -fx-spacing: 15;
+}
+.maininput{
+    -fx-pref-height: 35;
+    -fx-effect: dropshadow(two-pass-box, rgba(10, 10, 10, 0.89),5,0,0,3);
+}
+.mainlable{
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-text-fill:#d5791a ;
+}
+.mainlablealtnate{
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #015b01;
+}
+.button{
+    -fx-background-color: #015b01;
+    -fx-text-fill: white;
+    -fx-font-family: Calibri;
+    -fx-font-size: 1.5em;
+}
